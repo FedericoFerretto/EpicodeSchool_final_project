@@ -1,0 +1,25 @@
+<div class="bottone"><button type="button" (click)="click()" >Logout</button>
+</div>
+
+
+<div class="container">
+  <div class="liste">
+    <div>
+      <ul>
+        <li><a routerLink="/login2">Login</a></li>
+        <li><a routerLink="/signin2">Sign in</a></li>
+      </ul>
+    </div>
+    <div>
+      <ul>
+        <li><a  routerLink="/lista-utenti">Lista utenti</a></li>
+        <li><a routerLink="/clienti">Clienti</a></li>
+        <li><a routerLink="/fatture">Fatture</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="router">
+    <router-outlet></router-outlet>
+  </div>
+</div>

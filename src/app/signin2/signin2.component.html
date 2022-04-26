@@ -1,0 +1,48 @@
+<br />
+<br />
+<br />
+
+<div >
+  <div class="col-6">
+    <form (ngSubmit)="onsubmitz()">
+      <div class="form-group">
+        <div class="form">
+
+
+
+        <div class="dati">
+          <label for="pass">Username</label>
+          <input type="text" id="username" class="form-control" name="username" [(ngModel)]="username" />
+          <br />
+        </div>
+
+        <div class="dati">
+          <label for="pass">Email</label>
+          <input type="text" id="email" class="form-control" name="email" [(ngModel)]="email"/>
+        </div>
+
+
+        <div class="dati">
+          <label for="pass">Password</label>
+          <input type="password" id="password" class="form-control" name="password" [(ngModel)]="password"/>
+        </div>
+
+
+          <div class="dati">
+            <label for="role">Ruolo:    </label>
+
+            <select id="role" name="role" [(ngModel)]="role">
+              <option value="admin">Admin</option>
+              <option value="user">User</option>
+            </select>
+          </div>
+
+
+        </div>
+      </div>
+      <div class="bottone">
+        <button class="btn btn-primary" type="submit" >Registrati</button>
+      </div>
+    </form>
+  </div>
+</div>

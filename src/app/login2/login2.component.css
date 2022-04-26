@@ -1,0 +1,15 @@
+.miaClass {
+  display: flex;
+  justify-content: space-around;
+}
+
+div {
+  margin: 5px;
+  padding: 5px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
